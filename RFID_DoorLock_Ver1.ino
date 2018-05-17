@@ -6,11 +6,11 @@
 #include <SoftwareSerial.h> //시리얼 통신 라이브러리
 #include "ESP8266.h"
 
-#define SSID        "409LAB-2" //클라이언트 Wi-fi SSID
-#define PASSWORD    "409bigdata" //클라이언트 Wi-fi Passwd
-#define HOST_NAME   "192.168.0.9" //클라이언트로 접속할 Wi-fi의 IP
+#define SSID        "" //클라이언트 Wi-fi SSID
+#define PASSWORD    "" //클라이언트 Wi-fi Passwd
+#define HOST_NAME   "192.168.0.9" //접속할 Wi-fi의 IP
 #define TCP_PORT   (80) //TCP 연결포트
-#define TCP_NAME   "192.168.0.22" //TCP 연결할 APM 리눅스 서버의 IP
+#define TCP_NAME   "192.168.0.22" //클라이언트로 TCP 연결할 APM 리눅스 서버의 IP
 //아두이노와의 시리얼 통신을 위한 핀 번호 정의
 #define BT_RXD 2 //WIFI ESP wifi 모듈 시리얼 통신을 위한 핀 넘버  TX 2으로 선언
 #define BT_TXD 3 //WIFI ESP wifi 모듈 시리얼 통신을 위한 핀 넘버  RX 3으로 선언
