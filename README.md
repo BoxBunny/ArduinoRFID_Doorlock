@@ -8,9 +8,9 @@ NFC 통신을 통해 출입 내역을 데이터베이스에 저장.
 출입기록 데이터의 보관 기간은 30일.  
 
 # Algoritgm
-![DoorlockAlgorithm](./Arduino/image/RFID_Algorithm.jpg)
-![DataFlow](.Arduino/image/dataFlow.jpg)
-![Database E-R](.Arduino/image/E-R.jpg)
+![DoorlockAlgorithm](./Arduino/image/RFID_Algorithm.jpg)  
+![DataFlow](.Arduino/image/dataFlow.jpg)  
+![Database E-R](.Arduino/image/E-R.jpg)  
 
 # Used technique
 Arduino : RFID-RC522Module(NFCSensor), 1602DisplayModule, ESP8266WifiModule  
