@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #609CE1;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+form {
+   width: 300px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    border: 3px solid DimGrey;
+    border-radius: 12px;
+    margin: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: #133863;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #091D34;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2A69B2;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    border-left: 6px solid #091534;
+    border-color: #E1ECF9;
+    border-radius: 12px;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 25px;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
